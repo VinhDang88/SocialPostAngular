@@ -1,0 +1,13 @@
+<form #Submit="ngForm" (ngSubmit)="addPosts(Submit)">
+    <input type="text" name="title" placeholder="Title" ngModel>
+    <input type="text" name="thought" placeholder="Thought" ngModel>
+    <button>Send</button>
+
+</form>
+
+<!-- <form #Submit="ngForm" (ngSubmit)="addPosts(Submit)">
+    <input type="text" name="submit" placeholder="Title" ngModel>
+        <input type="text" name="submit" placeholder="Thought" ngModel>
+        <button (click)="submitPost()">Select</button>
+    
+    </form> -->

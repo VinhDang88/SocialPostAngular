@@ -1,0 +1,8 @@
+<div *ngFor="let post of Posts">
+
+    <app-single-post [post]="post"></app-single-post>
+
+</div>
+
+
+<app-post-form (Submitted)="onSubmit($event)"></app-post-form>
